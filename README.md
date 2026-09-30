@@ -46,15 +46,14 @@ The chatbot uses predefined rules and if-elif-else decision-making to respond to
 
 
 Rule-Based-AI-Chatbot/
-|
-|-- chatbot.py
-|-- README.md
-|
-|-- screenshots/
-    |-- chatbot-output-1.png
-    |-- chatbot-output-2.png
-    |-- chatbot-output-3.png
-    |-- chatbot-output-4.png
+
+*chatbot.py
+*README.md
+*screenshots/
+    -chatbot-output-1.png
+    -chatbot-output-2.png
+    -chatbot-output-3.png
+    -chatbot-output-4.png
 
 
 ## How to Run
