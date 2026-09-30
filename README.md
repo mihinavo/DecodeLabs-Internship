@@ -44,6 +44,7 @@ The chatbot uses predefined rules and if-elif-else decision-making to respond to
 
 ## Project Structure
 
+
 Rule-Based-AI-Chatbot/
 |
 |-- chatbot.py
@@ -54,6 +55,7 @@ Rule-Based-AI-Chatbot/
     |-- chatbot-output-2.png
     |-- chatbot-output-3.png
     |-- chatbot-output-4.png
+
 
 ## How to Run
 
@@ -126,7 +128,7 @@ Possible future improvements include:
 - Improving conversation memory
 - Adding a graphical user interface
 
----
+
 
 Developed by Navodya Mihiranga
 
