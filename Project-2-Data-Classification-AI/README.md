@@ -185,7 +185,7 @@ Accuracy: 100.00%
 
 === NEW PREDICTION ===
 Predicted class: setosa
-```
+
 
 ## Learning Outcomes
 
