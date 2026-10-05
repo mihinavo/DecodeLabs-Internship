@@ -1,4 +1,3 @@
-
 # Data Classification Using AI
 
 ## DecodeLabs Artificial Intelligence Internship - Project 2
@@ -8,6 +7,8 @@
 This project is part of the DecodeLabs Artificial Intelligence Internship.
 
 The goal of this project is to build a basic classification model using a small dataset. The project demonstrates the basic supervised learning process, including loading and understanding data, splitting data into training and testing sets, training a classification model, and making predictions.
+
+The project follows the main requirements provided for Project 2: loading and understanding a dataset, splitting the data into training and testing sets, and applying a simple classification algorithm.
 
 ## Objective
 
@@ -112,26 +113,44 @@ The predicted class was:
 ## Project Structure
 
 
-Data-Classification-AI/
+DecodeLabs-Internship/
 |
-+-- main.py
-+-- README.md
-+-- requirements.txt
-+-- venv/
++-- Project-1-Rule-Based-AI-Chatbot/
+|   +-- chatbot.py
+|   +-- README.md
+|   +-- screenshots/
+|
++-- Project-2-Data-Classification-AI/
+    +-- main.py
+    +-- README.md
+    +-- requirements.txt
+    +-- screenshots/
+        +-- project2-output.png
 
 
 ## How to Run
 
-### 1. Activate the virtual environment
+### 1. Open the Project 2 folder
+
+Open the following folder in Visual Studio Code:
+
+
+Project-2-Data-Classification-AI
+
+
+### 2. Install the required libraries
+
+Run:
 
 powershell
-.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 
 
-### 2. Run the Python program
+### 3. Run the Python program
+
+Run:
 
 powershell
-
 python main.py
 
 
@@ -140,16 +159,57 @@ python main.py
 The program displays:
 
 * Dataset information
+* Number of samples and features
 * First five rows of the dataset
 * Available class names
 * Training and testing sample counts
 * Model training status
 * Model accuracy
 * New prediction
-=======
 
+Example:
 
-Developed by Navodya Mihiranga
+=== DATASET INFORMATION ===
+Number of samples: 150
+Number of features: 4
 
-As part of the DecodeLabs AI Internship Program.
+=== DATA SPLIT ===
+Training samples: 120
+Testing samples: 30
 
+=== MODEL TRAINING ===
+Decision Tree model trained successfully.
+
+=== MODEL RESULTS ===
+Accuracy: 100.00%
+
+=== NEW PREDICTION ===
+Predicted class: setosa
+```
+
+## Learning Outcomes
+
+Through this project, I practiced:
+
+* Data handling using Pandas and NumPy.
+* Understanding a machine learning dataset.
+* Splitting data into training and testing sets.
+* Supervised learning fundamentals.
+* Classification model training.
+* Model evaluation.
+* Making predictions with a trained model.
+
+## Internship Information
+
+**Program:** DecodeLabs Artificial Intelligence Internship
+
+**Project:** Project 2 - Data Classification Using AI
+
+**Batch:** 2026
+
+## Developed By
+
+**Navodya Mihiranga**
+
+BSc in Information & Communication Technology
+South Eastern University of Sri Lanka
