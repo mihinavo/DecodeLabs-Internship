@@ -110,7 +110,7 @@ No external Python libraries are required for the current version.
 
 ## System Workflow
 
-```text
+
 User enters interests
         |
         v
