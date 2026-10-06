@@ -180,55 +180,7 @@ Action, Sci-Fi
 
 ---
 
-## Example Output
-
-
-============================================================
-             AI MOVIE RECOMMENDATION SYSTEM
-============================================================
-  Intelligent preference matching using similarity logic
-============================================================
-
-AVAILABLE GENRES
-------------------------------------------------------------
-Action | Adventure | Comedy | Crime | Drama | Animation | Family | Sci-Fi | Thriller
-
-Enter your interests (comma-separated): Action, Sci-Fi
-
-------------------------------------------------------------
-USER PROFILE
-------------------------------------------------------------
-Selected interests : Action, Sci-Fi
-Preferences found  : 2
-
-------------------------------------------------------------
-TOP RECOMMENDATIONS
-------------------------------------------------------------
-
-#1  Inception
-    Match Score : 100%
-    Matched     : Action, Sci-Fi
-    Genres      : Sci-Fi, Action, Thriller
-
-#2  The Matrix
-    Match Score : 100%
-    Matched     : Action, Sci-Fi
-    Genres      : Sci-Fi, Action, Thriller
-
-------------------------------------------------------------
-Recommendation process completed successfully.
-============================================================
-
-
 The exact recommendations depend on the preferences entered by the user.
-
----
-
-## Output Screenshot
-
-The project includes a screenshot demonstrating the working recommendation system.
-
-![Project 3 Output](screenshots/project3-output.png)
 
 ---
 
